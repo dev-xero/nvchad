@@ -3,7 +3,7 @@ local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 local lspconfig = require "lspconfig"
 
-local servers = { "lua_ls", "pyright", "html", "cssls", "ts_ls", "clangd", "yamlls", "gopls", "tailwindcss" }
+local servers = { "lua_ls", "pyright", "html", "cssls", "ts_ls", "clangd", "yamlls", "gopls", "tailwindcss", "emmet_ls" }
 
 lspconfig.ts_ls.setup {
     on_attach = on_attach,
